@@ -35,7 +35,7 @@ const Card = (data) => {
             <span class="image__photog">${imgData.user.name}</span>.
           </p>
           <p>
-          <time class="image_date" >${imgData.createdAt}</time>
+          <time class="image_date" datetime="">${imgData.createdAt}</time>
           </p>
           <p>
             <a href="${imgData.links.self}" class="image__link">
